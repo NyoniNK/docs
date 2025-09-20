@@ -1,5 +1,125 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: "Data Safety & Security"
+description: "How Groupbox protects user data"
 ---
 
+# Data Safety & Security
+
+At Groupbox, protecting customer data is a product requirement, not an afterthought.
+
+ We design, build, and operate our platform with a security-first mindset and a commitment to privacy, reliability, and transparency. This page summarizes our approach so both individual consumers and business customers can understand how we protect data and what controls are available to you.
+
+> **Last updated:** 2025-09-20
+
+## Our Core Commitments
+
+- **Security-first engineering:** Security is embedded into our development lifecycle (secure-by-design). Every feature is evaluated for its security and privacy implications before release.
+- **Privacy and legal alignment:** We design systems and processes to meet reasonable contractual requirements for enterprise customers.
+- **Transparency:** We publicly describe our security posture, available controls, and how customers can operate safely on our platform.
+- **Least privilege & data minimization:** Access is limited, logged, and reviewed. We collect only the data required to provide and improve our service.
+- **Continuous improvement:** Regular testing, audits, and risk assessments guide our security roadmap.
+
+---
+
+## What We Collect and Why
+
+We collect only the data needed to operate Groupbox and provide value to customers. Typical categories include:
+
+- **Account & identity data:** Name, email address, organization, billing details — required to create and manage accounts and invoices.
+- **User content:** Files, messages, notes, and other content you store in Groupbox. This is owned by the account holder and treated as primary application data.
+- **Usage & telemetry:** Application and performance logs (anonymized/aggregated where feasible) to improve reliability and product experience.
+- **Security logs & metadata:** Authentication events, administrative actions, and access logs to detect and investigate threats.
+
+We do not sell customer data. Data is processed only to provide the service, for security, or as legally required.
+
+---
+
+## How We Protect Your Data
+
+### Encryption
+
+- **In transit:** All network traffic to and from Groupbox uses industry-standard TLS (1.2+ / 1.3 where supported).
+- **At rest:** Customer content and sensitive metadata are encrypted using strong, industry-standard algorithms when stored.
+
+### Access Controls
+
+- **Role-based access control (RBAC):** Fine-grained roles and permissions for admins and end users.
+- **Principle of least privilege:** Internal staff and service accounts have the minimum privileges necessary to perform their jobs.
+- **Multi-factor authentication (MFA):** Available and recommended for all administrative accounts.
+
+### Network & Infrastructure Security
+
+- Modern network segmentation, firewalls, and private networking reduce attack surface.
+- Services are deployed in hardened environments with automated patching and vulnerability management.
+- DDoS protection and rate-limiting are applied to critical endpoints.
+
+### Secure Development Lifecycle (SDLC)
+
+- Threat modeling, static analysis, dependency scanning, and code review are integrated into our CI/CD pipeline.
+- Automated and manual testing (including unit, integration, and fuzz testing) reduce the risk of shipping security defects.
+
+### Monitoring, Detection & Response
+
+- Centralized logging, anomaly detection, and real-time alerting give our security team visibility into suspicious activity.
+- We maintain an incident response plan, run tabletop exercises, and continuously tune detection rules.
+
+### Backups, Resilience & Recovery
+
+- Regular, encrypted backups are performed and verified. Backups are stored separately from production systems.
+- Disaster recovery practices and runbooks are in place with routine restore testing.
+
+### Third-party Risk Management
+
+- We evaluate subprocessors and vendors through security questionnaires, contractual protections, and where appropriate, technical assessments.
+
+---
+
+## Privacy, Compliance & Contracts
+
+- **Data Processing Agreements (DPAs):** We offer DPAs to enterprise customers which outline the scope, purpose, and legal terms for processing personal data on behalf of customers.
+- **Support for data subject rights:** We provide mechanisms and operational support to help customers fulfill access, rectification, deletion, and portability requests for end users.
+- **Regulatory support:** Groupbox is designed to help customers meet their regulatory obligations. Where required, we will sign appropriate contractual clauses (e.g., Standard Contractual Clauses) and work with customers on compliance needs.
+
+_Note:_ If you require a copy of our DPA, contact our support team.
+
+## Incident Response & Customer Notifications
+
+- We maintain a documented incident response process that prioritizes containment, remediation, and customer communication.
+- Customers will be notified of security incidents affecting their data in accordance with applicable laws and contractual obligations. Enterprise customers with specific notification SLAs can coordinate customized arrangements during onboarding.
+
+---
+
+## How You Can Protect Yourself (Best Practices)
+
+We design Groupbox to be secure by default, but customers also play a critical role in securing their data. We recommend:
+
+1. **Practice least privilege** — limit administrative roles to a small number of trusted users.
+2. **Set access policies** that match your governance needs.
+3. **Train your team** on phishing, secure sharing, and password hygiene.
+
+---
+
+## Data Retention & Deletion
+
+- **Backups:** Backups are retained for resilience; deletion requests are applied to primary data and, where feasible, to backup copies according to our retention and disaster recovery practises.
+- **Data deletion requests:** We support data deletion and account closure workflows that help customers meet their obligations and user requests.
+
+---
+
+## Subprocessors & Third Parties
+
+We use trusted third-party services to power parts of Groupbox (for example: hosting, email delivery, payment processing, analytics, and monitoring). All subprocessors are contractually bound to protect customer data. Customers may request a current list of subprocessors as part of their onboarding.
+
+---
+
+## Contact & Transparency
+
+If you have questions, need to request a DPA, want a subprocessor list, or need security documentation:
+
+- support@groupbox.com
+
+## Appendix:
+
+> **Data Processing Addendum (summary):** Groupbox acts as a data processor for customer content. The DPA defines processing purpose, categories of data, subprocessors, security measures, data subject request handling, retention, and deletion procedures. A full DPA is available on request.
+
+> **Security Summary (technical):** Transport security via TLS; data-at-rest encryption (AES-256); password hashing with modern KDFs (bcrypt/argon2); centralized KMS for keys; RBAC for all administrative actions; logging and SIEM for monitoring; regular pentests and secure SDLC.
