@@ -1,9 +1,9 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "$schema": "https://docs.groupbox.cloud/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Groupbox",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#000",
     "light": "#07C983",
     "dark": "#15803D"
   },
@@ -16,33 +16,30 @@
           {
             "group": "Getting started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Make it yours",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "intro_docs/make_it_yours"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Collaboration essentials",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "messaging",
+              "file_sharing",
+              "projects",
+              "notifications" 
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Security & Privacy",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "data_safety",
+              "https://groupbox.cloud/terms",
+              "https://groupbox.cloud/privacypolicy"
             ]
           }
         ]
@@ -72,18 +69,13 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "href": "https://docs.groupbox.cloud",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
+          "anchor": "Support",
+          "href": "https://groupbox.cloud/support",
           "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
@@ -96,32 +88,20 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@groupbox.cloud"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Sign Up",
+      "href": "https://client.groupbox.cloud/signup"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/@groupbox_cloud",
+      "youtube": "https://www.youtube.com/@groupboxcloud",
+      "instagram": "https://www.instagram.com/groupboxcloud/"
     }
   }
 }
