@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.groupbox.cloud/docs.json",
   "theme": "mint",
+  "defaultColorMode": "light",
   "name": "Groupbox",
   "colors": {
     "primary": "#000",
