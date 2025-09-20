@@ -19,14 +19,13 @@
               "index"
             ]
           },
-          {
-            "group": "Make it yours",
+          {  
             "pages": [
-              "intro_docs/make_it_yours"
+              "makeityours"
             ]
           },
-          {
-            "group": "Collaboration essentials",
+          { 
+           "group": "Collaboration Essentials",
             "pages": [
               "messaging",
               "file_sharing",
@@ -37,9 +36,7 @@
           {
             "group": "Security & Privacy",
             "pages": [
-              "data_safety",
-              "https://groupbox.cloud/terms",
-              "https://groupbox.cloud/privacypolicy"
+              "data_safety"
             ]
           }
         ]
@@ -75,7 +72,7 @@
         {
           "anchor": "Support",
           "href": "https://groupbox.cloud/support",
-          "icon": "slack"
+          "icon": "help"
         }
       ]
     }
