@@ -19,43 +19,32 @@
               "index"
             ]
           },
-          {  
+          {
+            "group": "Make it yours",
             "pages": [
-              "makeityours"
+              "intro_docs/make_it_yours"
             ]
           },
-          { 
-           "group": "Collaboration Essentials",
+          {
+            "group": "Collaboration essentials",
             "pages": [
               "messaging",
               "file_sharing",
               "projects",
-              "notifications" 
+              "notifications"
             ]
           },
           {
             "group": "Security & Privacy",
             "pages": [
-              "data_safety"
+              "data_safety",
+              "https://groupbox.cloud/terms",
+              "https://groupbox.cloud/privacypolicy"
             ]
           }
         ]
-      } 
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://docs.groupbox.cloud",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Support",
-          "href": "https://groupbox.cloud/support",
-          "icon": "help"
-        }
-      ]
-    }
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
