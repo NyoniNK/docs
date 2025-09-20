@@ -20,9 +20,9 @@
             ]
           },
           {
-            "group": "Make it yours",
+            "group": "",
             "pages": [
-              "intro_docs/make_it_yours"
+              "make_it_yours"
             ]
           },
           {
@@ -37,9 +37,7 @@
           {
             "group": "Security & Privacy",
             "pages": [
-              "data_safety",
-              "https://groupbox.cloud/terms",
-              "https://groupbox.cloud/privacypolicy"
+              "data_safety"
             ]
           }
         ]
